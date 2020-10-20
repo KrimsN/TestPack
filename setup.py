@@ -5,5 +5,6 @@ setup(name='TestPack',
       description='My test python package',
       author='KrimsN',
       author_email='dr.krimsn@gmail.com',
-      packages=find_packages(),
+      package_dir={'': 'src'},
+      packages=find_packages(where='src'),
      )
