@@ -5,5 +5,5 @@ setup(name='TestPack',
       description='My test python package',
       author='KrimsN',
       author_email='dr.krimsn@gmail.com',
-      packages=['test_pack', 'test_pack.test_module'],
+      packages=['test_pack'],
      )
